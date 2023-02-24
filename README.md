@@ -25,7 +25,7 @@ Before using this code, you need to modify the following configuration parameter
 ## Usage
 After modifying the configuration parameters, you need to upload the code to your ESP8266 board using the Arduino IDE or any other compatible IDE. Then, connect the temperature, humidity and light intensity sensors to the appropriate pins on the board.
 
-When the board starts up, it creates a Wi-Fi access point and starts a web server. You can connect to the access point using your smartphone or computer and enter your Wi-Fi network credentials on the web server to connect the board to your Wi-Fi network. After connecting to the network, the board will connect to the MQTT broker and start publishing sensor data every 10 seconds.
+When the board starts up, it creates a Wi-Fi access point and starts a web server. You can connect to the access point using your smartphone or computer and enter your Wi-Fi network credentials on the web server to connect the board to your Wi-Fi network `(on v2)`. After connecting to the network, the board will connect to the MQTT broker and start publishing sensor data every 10 seconds.
 
 The temperature, humidity and light intensity data is published to the following MQTT topics:
 
