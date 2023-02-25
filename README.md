@@ -32,4 +32,5 @@ The temperature, humidity and light intensity data is published to the following
 - `your_username/feeds/temperature`
 - `your_username/feeds/humidity`
 - `your_username/feeds/light-intensity`
+
 You can view the published data on the Adafruit IO dashboard or use it for other purposes.
